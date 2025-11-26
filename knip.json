@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "ignoreExportsUsedInFile": {
+    "interface": true,
+    "type": true
+  },
+  "tags": [
+    "-lintignore"
+  ],
+  "entry": ["libs/**/src/index.{ts,tsx}", "apps/**/src/main.{ts,tsx}"],
+  "project": ["{apps,libs}/**/src/**/*.{ts,tsx}"],
+  "eslint": {
+    "config": ["{apps,libs}/**/.eslint.config.mjs"]
+  }
+}

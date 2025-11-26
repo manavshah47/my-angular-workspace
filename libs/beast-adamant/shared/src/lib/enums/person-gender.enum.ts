@@ -1,0 +1,9 @@
+export enum PersonGenderEnum {
+  GENDER_MALE = 'GENDER_MALE',
+  GENDER_FEMALE = 'GENDER_FEMALE',
+}
+
+export enum PersonAgeGroupEnum {
+  AGE_GROUP_GEN_Z =  'GENDER_GROUP_GEN_Z',
+  AGE_GROUP_MILLENNIAL = 'AGE_GROUP_MILLENNIAL',
+}

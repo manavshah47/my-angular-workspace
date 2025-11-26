@@ -22,7 +22,9 @@
         "libs/shop/feature-product-detail/src/index.ts"
       ],
       "@org/shop/feature-products": ["libs/shop/feature-products/src/index.ts"],
-      "@org/shop/shared-ui": ["libs/shop/shared-ui/src/index.ts"]
+      "@org/shop/shared-ui": ["libs/shop/shared-ui/src/index.ts"],
+      "@myorg/nested/my-lib": ["libs/nested/my-lib/src/index.ts"],
+      "@beast-adamant/shared": ["libs/beast-adamant/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
